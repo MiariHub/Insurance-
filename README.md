@@ -1,2 +1,2 @@
-# Insurance-
+# Insurance 
 Prediction for Insurance using AI
