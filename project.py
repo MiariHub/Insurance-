@@ -51,7 +51,7 @@ tab1, tab2, tab3 = st.tabs(["Home", "Dashboard", "Prediction"])
 
 with tab1:
     # Display an image on the main page
-    image = Image.open('in.png')
+    image = Image.open('D:\Deplyment\Insurance\in.png')
     
 
     col1, col2= st.columns([1,1])
@@ -63,16 +63,12 @@ with tab1:
     with col2:
         st.markdown("")
         st.markdown("")
-        st.markdown('<div style="text-align: Justify;"> Welcome to our innovative platform where we harness the power of AI to transform medical insurance. Our machine learning model, Gradient Boosting, analyzes diverse factors such as age, BMI, smoking status, and more to uncover deep insights into healthcare costs.
-
-Our approach allows us to offer personalized insurance plans tailored to individual health profiles, encouraging proactive health management and potentially reducing premiums. 
-
-Explore how our AI-driven tools are setting new standards in medical insurance, making policies more affordable and aligned with your unique health needs.</div>', unsafe_allow_html=True)
+        st.markdown('<div style="text-align: Justify;"> Welcome to our innovative platform where we harness the power of AI to transform medical insurance. Our machine learning model, Gradient Boosting, analyzes diverse factors such as age, BMI, smoking status, and more to uncover deep insights into healthcare costs.Our approach allows us to offer personalized insurance plans tailored to individual health profiles, encouraging proactive health management and potentially reducing premiums. Explore how our AI-driven tools are setting new standards in medical insurance, making policies more affordable and aligned with your unique health needs.</div>', unsafe_allow_html=True)
         st.markdown("")
         st.markdown('<div style="text-align: Right;">By Developer.</div>', unsafe_allow_html=True)
 
 with tab2:
-    df = pd.read_csv('insurance.csv', index_col=0)
+    df = pd.read_csv('D:\Deplyment\Insurance\insurance.csv', index_col=0)
     # Add title to the dashboard
     st.title('Dataset Dashboard')
 
