@@ -56,7 +56,7 @@ with tab1:
 
     col1, col2= st.columns([1,1])
     with col1:
-        st.image(image, caption=None, width=400, use_column_width=None, clamp=False, channels="RGB", output_format="auto", )
+        st.image(image, caption=None, width=300, use_column_width=None, clamp=False, channels="RGB", output_format="auto", )
 
 
     
