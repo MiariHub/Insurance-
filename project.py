@@ -68,7 +68,7 @@ with tab1:
         st.markdown('<div style="text-align: Right;">By Developer.</div>', unsafe_allow_html=True)
 
 with tab2:
-    df = pd.read_csv('D:\Deplyment\Insurance\insurance.csv', index_col=0)
+    df = pd.read_csv('insurance.csv', index_col=0)
     # Add title to the dashboard
     st.title('Dataset Dashboard')
 
