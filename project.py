@@ -51,7 +51,7 @@ tab1, tab2, tab3 = st.tabs(["Home", "Dashboard", "Prediction"])
 
 with tab1:
     # Display an image on the main page
-    image = Image.open('https://github.com/MiariHub/Insurance-/blob/main/in.png')
+    image = Image.open('in.png')
     
 
     col1, col2= st.columns([1,1])
