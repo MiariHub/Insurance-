@@ -51,7 +51,7 @@ tab1, tab2, tab3 = st.tabs(["Home", "Dashboard", "Prediction"])
 
 with tab1:
     # Display an image on the main page
-    image = Image.open('D:\Deplyment\Insurance\in.png')
+    image = Image.open('in.png')
     
 
     col1, col2= st.columns([1,1])
@@ -68,7 +68,7 @@ with tab1:
         st.markdown('<div style="text-align: Right;">By Developer.</div>', unsafe_allow_html=True)
 
 with tab2:
-    df = pd.read_csv('D:\Deplyment\Insurance\insurance.csv', index_col=0)
+    df = pd.read_csv('insurance.csv', index_col=0)
     # Add title to the dashboard
     st.title('Dataset Dashboard')
 
