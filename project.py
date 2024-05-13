@@ -158,7 +158,7 @@ with tab4:
     The data includes factors such as age, BMI, smoking status, number of children, and geographical region. This data helps the model understand and predict healthcare costs more accurately.
     #### Prediction Methodology
     We utilize a Gradient Boosting model, a powerful machine learning technique that builds an ensemble of decision trees to make better predictions. The model has been trained on historical healthcare cost data to ensure reliable estimates.
-    """)
+    
     
             
 
