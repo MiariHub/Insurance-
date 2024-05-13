@@ -85,7 +85,7 @@ with tab2:
     st.markdown('<h2 div style="text-align: Justify;font-family: Times New Roman"> Data Visualizations</h2></div>', unsafe_allow_html=True)
 
     # Example: Bar chart to visualize distribution of a numerical variable
-    st.subheader('1.Sex')
+    st.markdown('<h3 div style="text-align: Justify;font-family: Times New Roman"> 1.Sex</h3></div>', unsafe_allow_html=True)
     plt.figure(figsize=(15,8))
     fig = sns.catplot(data=df, x="sex", kind="count",palette=color_palette)
     plt.title('The Count of Male & Female')
@@ -93,7 +93,7 @@ with tab2:
     st.pyplot(fig)
     st.set_option('deprecation.showPyplotGlobalUse', False)
 
-    st.subheader('2.Smoker')
+    st.markdown('<h3 div style="text-align: Justify;font-family: Times New Roman"> 2.Smoker</h3></div>', unsafe_allow_html=True)
     plt.figure(figsize=(15,8))
     fig = sns.catplot(data=df, x="smoker", kind="count",palette=color_palette)
     plt.title('The Count of Smoker')
@@ -101,7 +101,7 @@ with tab2:
     st.pyplot(fig)
     st.set_option('deprecation.showPyplotGlobalUse', False)
 
-    st.subheader('3.region')
+    st.markdown('<h3 div style="text-align: Justify;font-family: Times New Roman"> 3.region</h3></div>', unsafe_allow_html=True)
     plt.figure(figsize=(15,8))
     fig = sns.catplot(data=df, x="region", kind="count",palette=color_palette)
     plt.title('The Count of Region')
@@ -109,7 +109,7 @@ with tab2:
     st.pyplot(fig)
     st.set_option('deprecation.showPyplotGlobalUse', False)
 
-    st.subheader('4.Children')
+    st.markdown('<h3 div style="text-align: Justify;font-family: Times New Roman"> 4.Children</h3></div>', unsafe_allow_html=True)
     plt.figure(figsize=(15,8))
     fig = sns.catplot(data=df, x="children", kind="count",palette=color_palette)
     plt.title('The Count of Childern')
@@ -117,7 +117,7 @@ with tab2:
     st.pyplot(fig)
     st.set_option('deprecation.showPyplotGlobalUse', False)
 
-    st.subheader('Pivots')
+    st.markdown('<h2 div style="text-align: Justify;font-family: Times New Roman"> Pivot Table</h2></div>', unsafe_allow_html=True)
     pivot = pd.pivot_table(df, index = ['region','sex','smoker'],aggfunc=np.mean)
     pivot
 
