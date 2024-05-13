@@ -44,7 +44,7 @@ page_bg = """
 
 #st.header("Prediction for Insurance using AI")
 
-st.set_page_config(page_title="Medical Insurance!!!", page_icon=":medical_symbol:",layout="wide")
+st.set_page_config(page_title="Medical Insurance!!!", page_icon=":medical_symbol:")
 
 st.markdown("<h1 style='text-align: center; color: white;'>Prediction for Insurance using AI</h1>", unsafe_allow_html=True)
 
