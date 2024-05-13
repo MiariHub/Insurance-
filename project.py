@@ -49,7 +49,7 @@ st.set_page_config(page_title="Medical Insurance!!!", page_icon=":medical_symbol
 st.markdown("<h1 style='text-align: center; color: white;font-family: Times New Roman'>AI-Driven Insurance Cost Predictor</h1>", unsafe_allow_html=True)
 
 
-tab1, tab2, tab3 = st.tabs(["Home", "Dashboard", "Prediction"])
+tab1, tab2, tab3,tab4 = st.tabs(["Home", "Dashboard", "Prediction","About"])
 
 
 
@@ -147,7 +147,18 @@ with tab3:
             prediction = loaded_data.predict(input_data)
             st.success(f'Predicted Insurance Cost: ${prediction[0]:.2f}')
     
-    
+with tab4:
+    ### About the Application
+    This application uses a machine learning model to predict individual healthcare costs based on personal health data. The goal is to help users explore how different factors might influence their medical insurance premiums.
+    #### How to Use
+    - *Home*: Provides an overview of our platform and introduces the innovative ways AI is transforming medical insurance.
+    - *Dashboard*: Visualize and interact with the data related to healthcare costs to see trends and patterns.
+    - *Prediction*: Input personal health information to receive a tailored estimate of potential insurance costs.
+    #### Data Used
+    The data includes factors such as age, BMI, smoking status, number of children, and geographical region. This data helps the model understand and predict healthcare costs more accurately.
+    #### Prediction Methodology
+    We utilize a Gradient Boosting model, a powerful machine learning technique that builds an ensemble of decision trees to make better predictions. The model has been trained on historical healthcare cost data to ensure reliable estimates.
+    """)
     
             
 
@@ -158,6 +169,8 @@ elif tab2 == "Dashboard":
         Dashboard()
 elif tab3 == "Prediction":
         Prediction()
+else tab4 == "About":
+        About()
     
 
 
