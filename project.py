@@ -82,7 +82,7 @@ with tab2:
     st.write(df.head())
 
     #visualizations
-    st.write('## Data Visualizations')
+    st.markdown('<h2 div style="text-align: Justify;font-family: Times New Roman"> Data Visualizations</h2></div>', unsafe_allow_html=True)
 
     # Example: Bar chart to visualize distribution of a numerical variable
     st.subheader('1.Sex')
