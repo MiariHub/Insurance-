@@ -101,7 +101,7 @@ with tab2:
     st.pyplot(fig)
     st.set_option('deprecation.showPyplotGlobalUse', False)
 
-    st.markdown('<h3 div style="text-align: Justify;font-family: Times New Roman"> 3.region</h3></div>', unsafe_allow_html=True)
+    st.markdown('<h3 div style="text-align: Justify;font-family: Times New Roman"> 3.Region</h3></div>', unsafe_allow_html=True)
     plt.figure(figsize=(15,8))
     fig = sns.catplot(data=df, x="region", kind="count",palette=color_palette)
     plt.title('The Count of Region')
