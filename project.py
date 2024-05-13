@@ -77,7 +77,8 @@ with tab2:
     st.markdown('<h1 div style="text-align: Justify;font-family: Times New Roman"> Dataset Dashboard</h1></div>', unsafe_allow_html=True)
 
     # Display the dataset
-    st.write('## Dataset Overview')       
+    st.markdown('<h2 div style="text-align: Justify;font-family: Times New Roman"> Dataset Overview</h2></div>', unsafe_allow_html=True)
+
     st.write(df.head())
 
     #visualizations
