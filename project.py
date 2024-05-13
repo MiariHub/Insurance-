@@ -78,7 +78,7 @@ with tab2:
 
     # Display the dataset
     st.write('## Dataset Overview')       
-    st.write(df.head())
+    st.write(df.head(np.andom()))
 
     #visualizations
     st.write('## Data Visualizations')
