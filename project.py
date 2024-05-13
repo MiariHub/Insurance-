@@ -46,7 +46,7 @@ page_bg = """
 
 st.set_page_config(page_title="Medical Insurance!!!", page_icon=":medical_symbol:")
 
-st.markdown("<h1 style='text-align: center; color: white;'>Prediction for Insurance using AI</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: white;font-family: Times New Roman'>Prediction for Insurance using AI</h1>", unsafe_allow_html=True)
 
 
 tab1, tab2, tab3 = st.tabs(["Home", "Dashboard", "Prediction"])
