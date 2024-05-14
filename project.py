@@ -171,8 +171,7 @@ elif tab2 == "Dashboard":
         Dashboard()
 elif tab3 == "Prediction":
         Prediction()
-else tab4 == "About":
-        About()
+
     
 
 
