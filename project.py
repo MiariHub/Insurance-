@@ -147,6 +147,7 @@ with tab3:
             prediction = loaded_data.predict(input_data)
             st.success(f'Predicted Insurance Cost: ${prediction[0]:.2f}')
     
+
 with tab4:
      st.write("""
     ### About the Application
@@ -159,8 +160,7 @@ with tab4:
     The data includes factors such as age, BMI, smoking status, number of children, and geographical region. This data helps the model understand and predict healthcare costs more accurately.
     #### Prediction Methodology
     We utilize a Gradient Boosting model, a powerful machine learning technique that builds an ensemble of decision trees to make better predictions. The model has been trained on historical healthcare cost data to ensure reliable estimates.
-    """)
-    
+    """)    
     
             
 
