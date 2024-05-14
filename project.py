@@ -148,7 +148,7 @@ with tab3:
             st.success(f'Predicted Insurance Cost: ${prediction[0]:.2f}')
     
 with tab4:
-    st.write("""
+     st.write("""
     ### About the Application
     This application uses a machine learning model to predict individual healthcare costs based on personal health data. The goal is to help users explore how different factors might influence their medical insurance premiums.
     #### How to Use
